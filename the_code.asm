@@ -5,16 +5,16 @@ array:			.space	140	    	//create array and allocate 140 bytes (will hold the nu
 
 // Start of ComputePrimes function
 
-        .text
-        .global		ComputePrimes
-        .func		ComputePrimes
+        		.text
+        		.global		ComputePrimes
+        		.func		ComputePrimes
 
 ComputePrimes:
 // Save registers
 
-        push		{r0,r1,r2,r3,r4,r5,r6,r7}
-        mov 		r4, lr
-        push		{r4}
+        	push		{r0,r1,r2,r3,r4,r5,r6,r7}
+       		mov 		r4, lr
+        	push		{r4}
 
 // Insert your code to compute the first 20 prime numbers here.
 
